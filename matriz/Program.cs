@@ -29,7 +29,7 @@ void definicaoTamanhoMatriz()
         qtdColunas = int.Parse(Console.ReadLine());
     
 
-    }while( qtdLinha == 0 || qtdColunas == 0);
+    }while( qtdLinha < 0 || qtdColunas < 0);
 
     matriz = new float[qtdLinha, qtdColunas];
     matriz2 = new float[qtdLinha, qtdColunas];
